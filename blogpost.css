@@ -12,7 +12,7 @@ body {
     background-color: rgba(255, 255, 255, 0.87);
     border-radius: 30px;
     width: 50vw;
-    height: 70vh;
+    height: auto; /* temp fix for other screen sizes */
     max-width: 500px;
     max-height: 600px;
     min-width: 300px;
@@ -30,7 +30,7 @@ body {
 
 .blog-post-card:hover {
     transform: scale(1.02, 1.02);
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .post-img {
@@ -61,10 +61,11 @@ body {
 .read-more {
     color: white;
     background-color: rgb(44, 8, 8);
-    margin: 30px;
+    margin: 25px;
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
+    
     
 }
 .read-more:hover {
